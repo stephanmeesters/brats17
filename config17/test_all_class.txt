@@ -1,6 +1,6 @@
 [data]
-data_root         = /home/guotwang/data/Brats17TrainingData
-save_folder       = result17
+data_root         = /home/ubuntu/brats17/data
+save_folder       = /home/ubuntu/brats17/results17
 data_names        = config17/test_names_temp.txt
 modality_postfix  = [flair, t1, t1ce, t2]
 file_postfix      = nii.gz
