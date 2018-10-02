@@ -15,12 +15,14 @@ import time
 import os
 import sys
 import tensorflow as tf
-from tensorflow.contrib.data import Iterator
+from tensorflow.data import Iterator
 from util.data_loader import *
 from util.data_process import *
 from util.train_test_func import *
 from util.parse_config import parse_config
 from train import NetFactory
+
+# Iterator = tf.data.Iterator
 
 def test(config_file):
     # 1, load configure file
